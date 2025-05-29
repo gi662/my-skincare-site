@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美容成分辞典 - あなたの美容成分ガイド</title>
+    <meta name="description" content="美容成分の効果、使い方、併用注意などを詳しく解説する総合辞典サイトです。">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <a href="index.html">美容成分辞典</a>
+            </h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#ingredients">成分一覧</a></li>
+                    <li><a href="#about">このサイトについて</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>美容成分を詳しく知ろう</h2>
+            <p>効果的なスキンケアのための成分辞典</p>
+        </div>
+    </section>
+
+    <!-- AdSense Banner (上部) -->
+    <div class="ad-banner">
+        <!-- AdSenseコードをここに挿入 -->
+        <div class="ad-placeholder">広告エリア（AdSense）</div>
+    </div>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="成分名で検索...">
+                <button id="searchBtn">検索</button>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">すべて</button>
+                <button class="filter-btn" data-category="保湿">保湿</button>
+                <button class="filter-btn" data-category="美白">美白</button>
+                <button class="filter-btn" data-category="エイジングケア">エイジングケア</button>
+                <button class="filter-btn" data-category="ニキビケア">ニキビケア</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ingredients List -->
+    <section id="ingredients" class="ingredients-section">
+        <div class="container">
+            <h2>成分一覧</h2>
+            <div id="ingredientsList" class="ingredients-grid">
+                <!-- JavaScriptで動的に生成 -->
+            </div>
+            <div id="noResults" class="no-results" style="display: none;">
+                <p>検索条件に一致する成分が見つかりませんでした。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- AdSense Rectangle (中央) -->
+    <div class="ad-rectangle">
+        <!-- AdSenseコードをここに挿入 -->
+        <div class="ad-placeholder">広告エリア（AdSense）</div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>このサイトについて</h2>
+            <p>美容成分辞典は、スキンケア製品に含まれる様々な美容成分について、その効果や使い方、注意点などを分かりやすく解説するサイトです。正しい知識を身につけて、より効果的なスキンケアを実践しましょう。</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 美容成分辞典. All rights reserved.</p>
+            <p>※本サイトの情報は参考用です。実際の使用前には専門家にご相談ください。</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

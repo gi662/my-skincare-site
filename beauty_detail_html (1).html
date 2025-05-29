@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">成分詳細 - 美容成分辞典</title>
+    <meta name="description" id="pageDescription" content="美容成分の詳細情報">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <a href="index.html">美容成分辞典</a>
+            </h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="index.html#ingredients">成分一覧</a></li>
+                    <li><a href="index.html#about">このサイトについて</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">ホーム</a> &gt; <span id="breadcrumbCurrent">成分詳細</span>
+        </div>
+    </div>
+
+    <!-- Detail Content -->
+    <main class="detail-main">
+        <div class="container">
+            <div id="ingredientDetail" class="detail-content">
+                <!-- JavaScriptで動的に生成 -->
+            </div>
+            
+            <!-- 関連成分 -->
+            <section class="related-ingredients">
+                <h2>関連する成分</h2>
+                <div id="relatedIngredients" class="ingredients-grid">
+                    <!-- JavaScriptで動的に生成 -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- AdSense Rectangle (詳細ページ中央) -->
+    <div class="ad-rectangle">
+        <!-- AdSenseコードをここに挿入 -->
+        <div class="ad-placeholder">広告エリア（AdSense）</div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 美容成分辞典. All rights reserved.</p>
+            <p>※本サイトの情報は参考用です。実際の使用前には専門家にご相談ください。</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/detail.js"></script>
+</body>
+</html>
+    
